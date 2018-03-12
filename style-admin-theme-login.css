@@ -1,0 +1,88 @@
+/*********************************************************************************************************
+                                            Cas spéciaux
+*********************************************************************************************************/
+#shibboleth_login {
+    /*
+     Le plugin Shibboleth ajoute un lien automatiquement au formulaire de login standard de Wordpress.
+     C'est un mécanisme par défaut qu'il n'est pas possible de modifier sans modifier le code du plugin.
+     La solution la plus simple est de masquer l'élément (pas de risque, c'est seulement cosmétique).
+    */
+    display:none;
+}
+/*********************************************************************************************************
+                                            Styles admin Wordpress
+*********************************************************************************************************/
+body {
+    padding:0;
+    margin:0;
+    background-color:#f5f5f5;
+    font-family:Helvetica, Arial, sans-serif;
+}
+body.login{ border-top:40px solid #000; }
+body.login div#login h1 {
+    background-color:orange;
+    margin:0;
+    padding-top:20px;
+    border-bottom:40px solid #444;
+}
+body.login div#login h1 a {
+    background-position:left center;
+    padding:18px 0;
+    margin-left:100px;
+    height:90px;
+}
+body.login div#login {
+    padding-top:0;
+    width:760px;
+    margin:0 auto;
+    background-color:#fff;
+}
+body.login div#login form#loginform {
+    margin:0;
+    padding:30px 80px;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+body.login div#login form#loginform p.submit input#wp-submit {
+    -webkit-appearance: none;
+    border:1px solid #f86024;
+    font-weight:bold;
+    color:#f86024;
+    cursor:pointer;
+    padding:2px 15px 5px 15px;
+    margin:20px 0;
+    text-align:center;
+    border-radius:3px;
+    background-color:#fff;
+    /* Annule l'ombage de la boite et du texte */
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    -webkit-text-shadow:none;
+    text-shadow:none;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+    background-color:#f86024;
+    color:#fff;
+}
+p {
+    font-weight:bold;
+    font-size:13px;
+}
+body.login div#login p#backtoblog {padding:10px 0 20px 30px}
+#nav {
+    float:right;
+    margin-right:60px;
+    padding-top:20px;
+}
+body.login div#login p#nav a:hover, body.login div#login p#nav a:focus,
+body.login div#login p#backtoblog a:hover, body.login div#login p#backtoblog a:focus {color:#f86024;}
+/* MEDIA QUERIES - MOBILE ONLY */
+@media only screen and (max-width : 767px) {
+    body.login div#login {width:100%}
+    body.login div#login h1 a { margin-left:30px;}
+    body.login div#login form#loginform {	padding:30px; }
+    body.login div#login form#loginform p.submit input#wp-submit {padding:5px 15px; }
+    #nav {float:none; }
+    body.login div#login p#backtoblog {padding:0 0 20px 30px}
+    body.login div#login p#nav {padding:0 0 0 30px}
+}

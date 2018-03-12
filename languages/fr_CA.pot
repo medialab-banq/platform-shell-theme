@@ -1,0 +1,992 @@
+# <!=Copyright (C) 2018
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Plateforme médialab BAnQ 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2018-03-09 22:23:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: Canada\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.1\n"
+
+#: attachment.php:29
+msgid "Envoyé"
+msgstr ""
+
+#: attachment.php:29
+msgid "par"
+msgstr ""
+
+#: attachment.php:29
+msgid "Classé sous : "
+msgstr ""
+
+#: attachment.php:41 image.php:65
+msgid "Mots-clés"
+msgstr ""
+
+#: attachment.php:55
+msgid "Introuvable."
+msgstr ""
+
+#: attachment.php:58 page-full-width.php:49 page-left-sidebar.php:54
+msgid "La ressource demandée est introuvable sur le site."
+msgstr ""
+
+#: functions-merged-from-parent.php:174
+msgid " ... En savoir plus"
+msgstr ""
+
+#: functions-merged-from-parent.php:321
+#. translators: %1$s: Numéro de page
+msgid "Page %1$s"
+msgstr ""
+
+#: library/core.php:41
+msgid "Lire plus &raquo;"
+msgstr ""
+
+#: library/plugins.php:113
+msgid "Extensions du thème"
+msgstr ""
+
+#: library/plugins.php:115
+msgid "Vous n’avez pas les droits nécessaires pour installer l’extension %1$s."
+msgid_plural "Vous n’avez pas les droits nécessaires pour installer les extensions %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: page-full-width.php:46 page-left-sidebar.php:51
+msgid "Introuvable"
+msgstr ""
+
+#: searchform.php:15 searchform.php:17
+msgid "Recherche"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Plateforme médialab BAnQ"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/medialab-banq/platform-shell-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Thème WordPress permettant de créer une plateforme de médialab "
+"collaborative."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.banq.qc.ca/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Content"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "liste Qdn"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Left Sidebar Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Search"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Search Form"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Single Activity"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Single Contest"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Single Equipment"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Project Detail"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Single Tool"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Single"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Statique"
+msgstr ""
+
+#: archive.php:43
+msgctxt "archive"
+msgid "Catégories :"
+msgstr ""
+
+#: archive.php:49
+msgctxt "archive"
+msgid "Mots-clés :"
+msgstr ""
+
+#: archive.php:55
+msgctxt "archive"
+msgid "Publiés par :"
+msgstr ""
+
+#: archive.php:61
+msgctxt "archive"
+msgid "Archives quotidiennes :"
+msgstr ""
+
+#: archive.php:67
+msgctxt "archive"
+msgid "Archives mensuelles :"
+msgstr ""
+
+#: archive.php:73
+msgctxt "archive"
+msgid "Archives annuelles :"
+msgstr ""
+
+#: archive.php:87
+msgctxt "archive"
+msgid "Écrit le "
+msgstr ""
+
+#: archive.php:89
+msgctxt "archive"
+msgid "par"
+msgstr ""
+
+#: archive.php:89
+msgctxt "archive"
+msgid "Classé sous "
+msgstr ""
+
+#: author.php:15
+msgctxt "author"
+msgid "Articles de"
+msgstr ""
+
+#: author.php:35
+msgctxt "author"
+msgid "Aucun article disponible"
+msgstr ""
+
+#: comments.php:16
+msgctxt "comments"
+msgid "Ne pas télécharger cette page directement, merci!"
+msgstr ""
+
+#: comments.php:24
+msgctxt "comments"
+msgid "Protégé par mot de passe"
+msgstr ""
+
+#: comments.php:25
+msgctxt "comments"
+msgid "Entrer le mot de passe pour voir les commentaires"
+msgstr ""
+
+#: comments.php:40
+msgctxt "comments"
+msgid "Pas de commentaire"
+msgstr ""
+
+#: comments.php:40
+msgctxt "comments"
+msgid "Un commentaire"
+msgstr ""
+
+#: comments.php:40
+msgctxt "comments"
+msgid "% commentaires"
+msgstr ""
+
+#: comments.php:53
+#. translators: %1$s: date, %2$s: heure
+msgctxt "comments"
+msgid "le %1$s &agrave; %2$s"
+msgstr ""
+
+#: comments.php:56
+msgctxt "comments"
+msgid "Ton commentaire est en cours de modération."
+msgstr ""
+
+#: comments.php:81
+msgctxt "comments"
+msgid "La section Commentaires est fermée."
+msgstr ""
+
+#: comments.php:89
+msgctxt "comments"
+msgid "Laisser un commentaire"
+msgstr ""
+
+#: comments.php:111
+msgctxt "comments"
+msgid "Connecté en tant que"
+msgstr ""
+
+#: comments.php:112
+msgctxt "comments"
+msgid "Déconnexion"
+msgstr ""
+
+#: comments.php:112
+msgctxt "comments"
+msgid "Déconnexion &raquo;"
+msgstr ""
+
+#: comments.php:117
+msgctxt "comments"
+msgid "Nom"
+msgstr ""
+
+#: comments.php:120 comments.php:129
+msgctxt "comments"
+msgid "(requis)"
+msgstr ""
+
+#: comments.php:126
+msgctxt "comments"
+msgid "courriel (ne sera pas publié)"
+msgstr ""
+
+#: comments.php:135
+msgctxt "comments"
+msgid "Site Web"
+msgstr ""
+
+#: comments.php:141
+msgctxt "comments"
+msgid "Envoyer"
+msgstr ""
+
+#: single-activity.php:75 single-contest.php:167 single-equipment.php:45
+#: single-project.php:139 single-tool.php:50
+msgctxt "comments"
+msgid "Commentaires"
+msgstr ""
+
+#: comments.php:96
+#. translators: %1$s: Lien de connexion
+msgctxt "connected-comments"
+msgid "Tu dois être <a href=\"%1$s\">connecté</a> pour laisser un commentaire."
+msgstr ""
+
+#: content-none.php:21
+msgctxt "template-content-none"
+msgid "Page inexistante ou déplacée"
+msgstr ""
+
+#: content-none.php:24
+msgctxt "template-content-none"
+msgid "La page que vous tentez d’atteindre n’existe pas ou a été déplacée."
+msgstr ""
+
+#: content-none.php:27 content-none.php:30
+msgctxt "template-content-none"
+msgid "à revenir à la "
+msgstr ""
+
+#: content-none.php:27
+msgctxt "template-content-none"
+msgid "page d’accueil"
+msgstr ""
+
+#: content-none.php:28
+msgctxt "template-content-none"
+msgid "à consulter le "
+msgstr ""
+
+#: content-none.php:28
+msgctxt "template-content-none"
+msgid "plan du site"
+msgstr ""
+
+#: content-none.php:30
+msgctxt "template-content-none"
+msgid "page précédente"
+msgstr ""
+
+#: content-none.php:25
+msgctxt "none"
+msgid "Vous êtes invité :"
+msgstr ""
+
+#: content-none.php:29
+msgctxt "content-template-none"
+msgid "à utiliser la fonction de recherche, en haut à droite de cette page;"
+msgstr ""
+
+#: content-post.php:25
+msgctxt "content-post"
+msgid "Pages :"
+msgstr ""
+
+#: content-single.php:23
+msgctxt "content-single"
+msgid "  Quoi de neuf?"
+msgstr ""
+
+#: content-single.php:53
+msgctxt "content-single"
+msgid "Publié le "
+msgstr ""
+
+#: content-single.php:65
+msgctxt "content-single"
+msgid "à"
+msgstr ""
+
+#: footer.php:19
+msgctxt "footer"
+msgid "Coordonnées"
+msgstr ""
+
+#: footer.php:28
+msgctxt "footer"
+msgid "Heures d’ouverture"
+msgstr ""
+
+#: functions-settings.php:216
+msgctxt "footer"
+msgid "Itinéraire"
+msgstr ""
+
+#: functions-settings.php:270
+msgctxt "footer"
+msgid "Réalisé grâce à"
+msgstr ""
+
+#: library/menus/class-partners-links-walker-footer-menu.php:10
+msgctxt "footer"
+msgid "Logo"
+msgstr ""
+
+#: functions-settings.php:107
+msgctxt "platform_shell_option"
+msgid ""
+"Menu d’accès aux médias sociaux non défini.<br/> Veuillez vérifier les "
+"réglages de la plateforme."
+msgstr ""
+
+#: functions-settings.php:136
+msgctxt "platform_shell_option"
+msgid "Nom de l’organisation à personnaliser (alt image logo)"
+msgstr ""
+
+#: functions-settings.php:283
+msgctxt "platform_shell_option"
+msgid "Logo du site (à personnaliser)"
+msgstr ""
+
+#: functions-settings.php:302
+msgctxt "platform_shell_option"
+msgid "Logo du site page (à personnaliser)"
+msgstr ""
+
+#: functions-settings.php:471
+msgctxt "header-login-link"
+msgid "Gestion"
+msgstr ""
+
+#: functions.php:235
+msgctxt "image-bx-slider-navigation"
+msgid "Précédent"
+msgstr ""
+
+#: functions.php:240
+msgctxt "image-bx-slider-navigation"
+msgid "Suivant"
+msgstr ""
+
+#: functions.php:356
+msgctxt "sharing"
+msgid "Découvrez « %post_title% »"
+msgstr ""
+
+#: functions.php:361
+msgctxt "sharing"
+msgid ""
+"Bonjour,\\n"
+"\\n"
+"Un ami ou une amie pense que  « %post_title% » (%post_url%) suscitera votre "
+"intérêt et vous invite à l’explorer."
+msgstr ""
+
+#: functions.php:364
+msgctxt "sharing"
+msgid "À découvrir"
+msgstr ""
+
+#: functions.php:461
+msgctxt "contest-admissibility-missing"
+msgid "?"
+msgstr ""
+
+#: functions.php:675
+msgctxt "general"
+msgid "Publié le "
+msgstr ""
+
+#: functions.php:676
+msgctxt "general"
+msgid "Par "
+msgstr ""
+
+#: functions.php:702
+msgctxt "general"
+msgid "à"
+msgstr ""
+
+#: header.php:40 header.php:41
+msgctxt "header"
+msgid "Utilisateur non authentifié."
+msgstr ""
+
+#: header.php:47
+msgctxt "header"
+msgid "Utilisateur authentifié"
+msgstr ""
+
+#: header.php:52
+msgctxt "header"
+msgid "Mon profil"
+msgstr ""
+
+#: header.php:54
+msgctxt "header"
+msgid "Déconnexion"
+msgstr ""
+
+#: header.php:69
+msgctxt "header"
+msgid "En savoir plus"
+msgstr ""
+
+#: header.php:84
+msgctxt "header"
+msgid "Ouvrir la recherche."
+msgstr ""
+
+#: header.php:85
+msgctxt "header"
+msgid "Ouvrir la recherche"
+msgstr ""
+
+#: header.php:89
+msgctxt "header"
+msgid "Entrez votre recherche"
+msgstr ""
+
+#: header.php:90
+msgctxt "header"
+msgid "Entrez ici le(s) terme(s) de votre recherche. Touche d’accès clavier=4."
+msgstr ""
+
+#: header.php:93
+msgctxt "header"
+msgid "Chercher"
+msgstr ""
+
+#: header.php:100
+msgctxt "header"
+msgid "Retour à  l’accueil. Touche d’accès clavier=1."
+msgstr ""
+
+#: header.php:101
+msgctxt "header"
+msgid "Retour à  l’accueil."
+msgstr ""
+
+#: header.php:103
+msgctxt "header"
+msgid "Menu."
+msgstr ""
+
+#: header.php:108
+msgctxt "header"
+msgid "Partager"
+msgstr ""
+
+#: home.php:20
+#. translators: %1$s: Lien pour la page de création de projet
+msgctxt "shortcode-add-project"
+msgid "Tu peux créer un projet en <a href=\"%1$s\" >cliquant ici.</a> "
+msgstr ""
+
+#: home.php:23
+msgctxt "home"
+msgid "Projets à découvrir"
+msgstr ""
+
+#: home.php:24
+msgctxt "home"
+msgid "Tous les projets"
+msgstr ""
+
+#: home.php:25
+msgctxt "home"
+msgid "Aucun projet n’a été inscrit."
+msgstr ""
+
+#: home.php:41 home.php:45
+msgctxt "home"
+msgid "Concours"
+msgstr ""
+
+#: home.php:46
+msgctxt "home"
+msgid "Tous les concours"
+msgstr ""
+
+#: home.php:47
+msgctxt "home"
+msgid "Aucun concours"
+msgstr ""
+
+#: home.php:62
+msgctxt "home"
+msgid "Activités"
+msgstr ""
+
+#: home.php:63
+msgctxt "home"
+msgid "Toutes les activités"
+msgstr ""
+
+#: home.php:64
+msgctxt "home"
+msgid "Aucune activité n’est prévue."
+msgstr ""
+
+#: home.php:83
+msgctxt "home"
+msgid "Équipements disponibles"
+msgstr ""
+
+#: home.php:84
+msgctxt "home"
+msgid "Tous les équipements"
+msgstr ""
+
+#: home.php:85
+msgctxt "home"
+msgid "Aucun équipement disponible"
+msgstr ""
+
+#: home.php:98
+msgctxt "home"
+msgid "Outils numériques"
+msgstr ""
+
+#: home.php:99
+msgctxt "home"
+msgid "Tous les outils"
+msgstr ""
+
+#: home.php:100
+msgctxt "home"
+msgid "Aucun outil numérique disponible"
+msgstr ""
+
+#: home.php:116
+msgctxt "home"
+msgid "Quoi de neuf&#8239;?"
+msgstr ""
+
+#: home.php:117
+msgctxt "home"
+msgid "Tous les articles"
+msgstr ""
+
+#: home.php:118
+msgctxt "home"
+msgid "Il n’y a aucun article."
+msgstr ""
+
+#: image.php:34
+msgctxt "platform-shell-theme"
+msgid "Envoyé"
+msgstr ""
+
+#: image.php:34
+msgctxt "platform-shell-theme"
+msgid "par"
+msgstr ""
+
+#: image.php:79
+msgctxt "platform-shell-theme"
+msgid "Introuvable"
+msgstr ""
+
+#: image.php:82
+msgctxt "platform-shell-theme"
+msgid "La ressource demandée est introuvable sur le site."
+msgstr ""
+
+#: index.php:25
+msgctxt "index"
+msgid "Quoi de neuf?"
+msgstr ""
+
+#: index.php:64
+msgctxt "index"
+msgid "Plus anciens"
+msgstr ""
+
+#: index.php:65
+msgctxt "index"
+msgid "Plus récents"
+msgstr ""
+
+#: index.php:40
+#. translators: %1$s : Date, %2$s : Auteur
+msgctxt "author-line"
+msgid "%1$s par %2$s"
+msgstr ""
+
+#: library/core.php:66
+msgctxt "nav_menus"
+msgid "Principal"
+msgstr ""
+
+#: library/core.php:67
+msgctxt "nav_menus"
+msgid "Pied de page primaire"
+msgstr ""
+
+#: library/plugins.php:56
+msgctxt "theme-name"
+msgid "Plateforme médialab BAnQ"
+msgstr ""
+
+#: list-activities.php:14
+msgctxt "list-activities"
+msgid "Activités"
+msgstr ""
+
+#: list-activities.php:24
+msgctxt "list-activities"
+msgid "?"
+msgstr ""
+
+#: list-activities.php:43
+msgctxt "list-activities"
+msgid "Aucune activité n’est prévue."
+msgstr ""
+
+#: list-contests.php:14
+msgctxt "list-contests"
+msgid "Concours"
+msgstr ""
+
+#: list-contests.php:22
+msgctxt "list-contests"
+msgid "Aucun concours"
+msgstr ""
+
+#: list-equipments.php:14
+msgctxt "list-equipments"
+msgid "Équipements"
+msgstr ""
+
+#: list-equipments.php:15
+msgctxt "list-equipments"
+msgid "Les équipements ci-dessous sont disponibles sur place."
+msgstr ""
+
+#: list-equipments.php:24
+msgctxt "list-equipments"
+msgid "Aucun équipement disponible"
+msgstr ""
+
+#: list-projects.php:15
+msgctxt "list-projects"
+msgid "Projets"
+msgstr ""
+
+#: list-projects.php:19 list-taxonomies.php:26
+msgctxt "list-projects"
+msgid "Créer un projet"
+msgstr ""
+
+#: list-projects.php:28 list-taxonomies.php:35
+msgctxt "list-projects"
+msgid " Aucun projet n’a été inscrit."
+msgstr ""
+
+#: list-qdn.php:35
+msgctxt "list-qdn"
+msgid "Il n’y a aucun article."
+msgstr ""
+
+#: list-taxonomies.php:17
+msgctxt "list-taxonomy"
+msgid "Projets"
+msgstr ""
+
+#: list-tools.php:14
+msgctxt "list-tools"
+msgid "Outils numériques"
+msgstr ""
+
+#: list-tools.php:15
+msgctxt "list-tools"
+msgid "Les outils numériques ci-dessous sont disponibles sur place."
+msgstr ""
+
+#: list-tools.php:24
+msgctxt "list-tools"
+msgid "Aucun outil numérique disponible"
+msgstr ""
+
+#: partials/social-media-sharing-links.php:15
+msgctxt "social-media-links"
+msgid "Partager"
+msgstr ""
+
+#: partials/social-media-sharing-links.php:19
+msgctxt "social-media-links"
+msgid "Facebook"
+msgstr ""
+
+#: partials/social-media-sharing-links.php:23
+msgctxt "social-media-links"
+msgid "Twitter"
+msgstr ""
+
+#: partials/social-media-sharing-links.php:27
+msgctxt "social-media-links"
+msgid "Courriel"
+msgstr ""
+
+#: search.php:17
+msgctxt "results"
+msgid "Résultats"
+msgstr ""
+
+#: search.php:18
+msgctxt "search"
+msgid "Recherche"
+msgstr ""
+
+#: search.php:41
+msgctxt "search"
+msgid "Pour en savoir plus sur "
+msgstr ""
+
+#: search.php:55
+msgctxt "search"
+msgid "&laquo; Plus ancien"
+msgstr ""
+
+#: search.php:56
+msgctxt "search"
+msgid "Plus récent &raquo;"
+msgstr ""
+
+#: search.php:66
+msgctxt "search"
+msgid "Aucun résultat"
+msgstr ""
+
+#: search.php:69
+msgctxt "search"
+msgid "Aucun résultat ne correspond à ta recherche."
+msgstr ""
+
+#: single-activity.php:21
+msgctxt "single-activity"
+msgid "Activités"
+msgstr ""
+
+#: single-activity.php:39
+msgctxt "single-activity"
+msgid "Date"
+msgstr ""
+
+#: single-activity.php:47
+msgctxt "single-activity"
+msgid "Heure"
+msgstr ""
+
+#: single-activity.php:51
+msgctxt "single-activity"
+msgid "Public"
+msgstr ""
+
+#: single-activity.php:85
+msgctxt "single-activity"
+msgid "Problème technique"
+msgstr ""
+
+#: single-contest.php:23
+msgctxt "single-contest"
+msgid "Concours"
+msgstr ""
+
+#: single-contest.php:42
+msgctxt "single-contest"
+msgid "Organisateur : "
+msgstr ""
+
+#: single-contest.php:57
+msgctxt "single-contest"
+msgid "Durée"
+msgstr ""
+
+#: single-contest.php:69
+#. translators: %1$s: Date d'ouverture,  %2$s: Date de fermeture
+msgctxt "single-contest"
+msgid ""
+"<span class=\"text-nowrap\">%1$s</span> au <span "
+"class=\"text-nowrap\">%2$s</span>"
+msgstr ""
+
+#: single-contest.php:75
+msgctxt "single-contest"
+msgid "Annonce des gagnants"
+msgstr ""
+
+#: single-contest.php:79
+msgctxt "single-contest"
+msgid "Admissibilité"
+msgstr ""
+
+#: single-contest.php:89
+msgctxt "single-contest"
+msgid "Prix"
+msgstr ""
+
+#: single-contest.php:118
+msgctxt "single-contest"
+msgid "Modalités de participation"
+msgstr ""
+
+#: single-contest.php:127
+msgctxt "single-contest"
+msgid "Critères d’évaluation"
+msgstr ""
+
+#: single-contest.php:138
+msgctxt "single-contest"
+msgid "Jury"
+msgstr ""
+
+#: single-contest.php:147
+msgctxt "single-contest"
+msgid "Autres prix"
+msgstr ""
+
+#: single-contest.php:160
+msgctxt "single-contest"
+msgid "Projets inscrits"
+msgstr ""
+
+#: single-contest.php:177
+msgctxt "single-contest"
+msgid "Problème technique"
+msgstr ""
+
+#: single-equipment.php:22
+msgctxt "single-equipment"
+msgid "Équipements"
+msgstr ""
+
+#: single-equipment.php:55
+msgctxt "single-equipment"
+msgid "Problème technique"
+msgstr ""
+
+#: single-project.php:38
+msgctxt "single-projects"
+msgid "Projets"
+msgstr ""
+
+#: single-project.php:54
+msgctxt "single-projects"
+msgid "Créé par"
+msgstr ""
+
+#: single-project.php:84
+msgctxt "single-projects"
+msgid "Publié le"
+msgstr ""
+
+#: single-project.php:88
+msgctxt "single-projects"
+msgid "Modifié le"
+msgstr ""
+
+#: single-project.php:117
+msgctxt "single-projects"
+msgid "Processus de création"
+msgstr ""
+
+#: single-project.php:132
+msgctxt "single-projects"
+msgid "Inscription"
+msgstr ""
+
+#: single-project.php:150
+msgctxt "single-projects"
+msgid "Problème technique"
+msgstr ""
+
+#: single-tool.php:23
+msgctxt "single-tools"
+msgid "Outils numériques"
+msgstr ""
+
+#: single-tool.php:61
+msgctxt "single-tools"
+msgid "Problème technique"
+msgstr ""
+
+#: single.php:22
+msgctxt "single"
+msgid "Commentaires"
+msgstr ""

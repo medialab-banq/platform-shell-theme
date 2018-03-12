@@ -1,0 +1,593 @@
+/*
+Theme Name:   Plateforme médialab BAnQ
+Theme URI:    https://github.com/medialab-banq/platform-shell-theme/
+Description:  Thème WordPress permettant de créer une plateforme de médialab collaborative.
+Author   Bibliothèque et Archives nationales du Québec (BAnQ)
+Author URI:   http://www.banq.qc.ca/
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         
+Text Domain:  platform-shell-theme
+Platform-shell-theme is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+any later version.
+  
+Platform-shell-theme is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+  
+You should have received a copy of the GNU General Public License
+along with Platform-shell-theme. If not, see http://www.gnu.org/licenses/gpl-2.0.html.
+*/
+
+
+/*********************************************************************************************************   
+                                        FONT-FACE
+*********************************************************************************************************/
+
+/* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
+body, html {
+	height:100% !important;
+	min-height: 100%;
+}
+
+body {
+	font-size: 16px;
+}
+
+
+body.custom-background {
+    background-size: cover;
+}
+
+
+h1,h2,h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, .h1 {
+	 font-size:60px; 
+	/* font-size:8vw; */
+	
+}
+
+h2,.h2 {
+	font-size:48px; 
+	/* font-size: 4vw ; */
+}
+
+h3,.h3 {
+	font-size:36px; 
+	/* font-size: 3vw ; */
+}
+
+h4,.h4 {
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.white-text {color:#fff;}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #999;
+}
+
+
+.container hr {
+margin: 2px 0;
+}
+
+
+/*
+section {
+	opacity: 0;
+}
+*/
+.section {
+	display:block;
+	width:100% ;
+}
+
+
+.section.white-section {
+	background-color: #ffffff;
+}
+
+.section.grey-section {
+	background-color: #dddddd;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+	margin: 0.5em 1em 0.5em 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0.5em 0 0.5em 1em;
+}
+
+/*****************************************
+*			navigation				*
+*****************************************/
+
+
+/* .navbar {height: 50px;} */
+.navbar-default .navbar-brand,
+.navbar-inverse .navbar-brand {
+	margin-top:18px;
+}
+
+.navbar-inverse .navbar-brand {
+	color:#fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+color: #fff;
+background: none;
+}
+
+.navbar-default .navbar-collapse {
+	/* width: 80%; */
+}
+
+.navbar-default .navbar-nav > li > a {
+color: #999;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+color: #eee;
+}
+
+/*
+.navbar-collapse.in {
+	background: #eee;
+	width: 200px;
+	margin-right: 1px;
+}
+*/
+
+.shop-tools {
+	padding:0 20px;
+	float: right;
+}
+
+.shop-tools > li {
+	float: left;
+	display: block;
+	margin: 10px 5px;
+}
+
+/*****
+	
+	****/
+p.copyright {
+	font-size:0.8em ;
+}	
+
+#menu-footer li {
+display: inline;
+color: #eee;
+list-style: none;
+margin: 0 12px 0 0;
+}
+#menu-footer{
+	margin: 20px 0 ;
+	padding:0 ;
+}
+#menu-footer li a {
+	color:#eee;
+	text-decoration: none ;
+}
+#menu-footer li a:hover {
+	color:#ddd;
+}
+
+div.homepagehero {
+	text-shadow: 4px 4px 2px #333 ;
+}
+
+
+#sidebar {
+	width:220px;
+}
+
+.article-wrapper {
+    background-color: #333;
+    display: block;
+    float: left;
+    border: 2px solid #999;
+    margin-bottom: 20px ;
+}
+
+.article-image {
+    display: block;
+    width: 240px ;
+    height:240px ;
+    overflow: hidden;
+    float: left;
+    background-size: cover ;
+}
+
+.aticle-desc {
+    display: block;
+    width: 450px;
+    margin: 0;
+    float: left;
+    padding: 12px;
+}
+
+.aticle-desc h2 {
+    font-size: 1.8em ;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+        
+    .customCart{
+        display: block;
+        float: none;
+    }
+    
+    .links .customCart{
+        padding: 0 3px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #custom_cart{
+        margin-top: 5px;
+        padding: 0;
+    }
+    
+    .links .customCart{
+        padding: 0 5px;
+    }
+}
+
+/**********************************************  MERGE CHILD THEME **********************************************/
+
+/*********************************************************************************************************   
+                                        FONT-FACE
+*********************************************************************************************************/
+
+/*********************************************************************************************************
+                                            BRAND - LOGO    
+*********************************************************************************************************/
+
+/*********************************************************************************************************
+                                            NAVIGATION    
+*********************************************************************************************************/
+
+nav.ep-nav {
+    display:none;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-brand {
+    float: left;
+    height: 70px;
+    padding: 0px 15px; 
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-nav {
+    display: block;
+    float: none;
+}
+
+.navbar-header{
+    width: auto;
+}
+
+.navbar-brand{
+    width: 80%;
+}
+
+.navbar-brand img{
+    margin: 15px auto 0;
+}
+
+.navbar-cta {
+    float: right;
+    display: inline-block;
+    margin: 0px 32px;
+}
+.navbar-collapse{
+    border-color: #e7e7e7;
+    margin-top: 30px;
+    background-color: rgba(55,55,55,0.97);
+    border: 0;
+}
+
+#menu-main-navigation {
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 1.2em ; /*  18px; */
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li.current_page_ancestor > a {
+    color: #A9CDE7;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+}
+
+.dropdown-menu .menu-item aside {
+    padding-bottom: 5px;
+}
+
+.dropdown-toggle{
+    width: 20%;
+    float:right;
+}
+
+.dropdown-menu ul li {
+    font-size:12px;
+    margin-bottom:5px;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.dropdown-menu a {
+    color: #666 !important;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus { 
+    background-color:transparent;
+    color:#ce2031!important;
+    text-decoration: none;
+}
+
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover, .dropdown-menu .active > a:focus {
+    color: #fff!important;
+    text-decoration: none;
+    background-color: transparent!important;
+    outline: 0;
+}
+
+.btn-shadow {
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+/*****  pages & post  *****/
+#sidebar {
+    width: 285px;
+    float: left;
+}
+
+#sidebar h3 {
+    font-size: 26px;
+    /* font-size: 3vw; */
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Large devices (Large, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+
+/***** FONTS *****/
+
+
+/***** COLOR *****/
+
+.white{
+    color: #fff;
+}
+
+.red{
+    color: #ce2031;
+}
+
+.blue {color:#A9CDE7}
+
+/***** LINKS *****/
+
+a{
+    color: #A9CDE7;
+}
+
+a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: #ce2031;
+}
+
+/***** BUTTON *****/
+
+.btn {
+    border-radius:4px;
+    padding: 12px 44px;
+}
+
+.btn-default,
+.btn-default:focus, .btn-default:active, .btn-default.active,
+.btn-default:active:focus {
+    color: #e3ddd9;
+    background:none ;
+    border-color: #ccc;
+}
+
+.btn-default:hover {
+    background:none ;
+    border-color: #a9cde7;
+    color: #a9cde7;
+}
+
+.btn-primary,
+.btn-primary:focus, .btn-primary:active, .btn-primary.active ,
+.btn-primary:active:focus {
+    color: rgba(56, 35, 13, 1) /* #fff */;
+    background-color: #A9CDE7 /* #9aa8b0 */;
+    border-color: #A9CDE7 /* #9aa8b0 */;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6a7d87;
+    border-color: #6a7d87;
+}
+
+.btn-info,
+.btn-info:focus, .btn-info:active, .btn-info.active,
+.btn-info:active:focus {
+    color: #A9CDE7 ;
+    background:none ;
+    border-color: #A9CDE7;
+}
+
+.btn-info:hover {
+    color: #62574B;
+    background:none ;
+    border-color: #CFC4B9;
+}
+
+/* iphone 4S retina portrait, 3.5inch */
+@media only screen and (-webkit-min-device-pixel-ratio : 2) and (device-aspect-ratio: 2/3) and (orientation : portrait) {	
+
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color: #d5d0d0;
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+
+
+@media (min-width: 768px) { 
+
+}
+
+/*********************************************************************************************************
+                                            HOME PAGE   
+*********************************************************************************************************/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+@media (max-width: 768px) { 
+
+
+}
+
+/*********************************************************************************************************
+                                            PAGES   
+*********************************************************************************************************/
+
+
+/********************************************************************************************************
+                                                        PAGINATION
+********************************************************************************************************/
+.pagination > li > a, .pagination > li > span{
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 6px;
+    margin: 0 12px;
+    padding: 6px 12px;
+    margin: 0 4px;
+    border-radius: 3px;
+    color: #333;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus{
+    text-decoration: none;
+    color: #ce2031;
+    background-color: transparent;
+}
+
+.pagination > .active > a,.pagination > .active > a:hover, .pagination > .active > a:focus{
+    color: #ce2031;
+    background-color: transparent;
+    border-color: #ddd;
+}
+
+/*********************************************************************************************************
+                                            FOOTER   
+*********************************************************************************************************/
+footer{
+    display: block;
+    margin: 0;
+    width: 100% ;
+    padding-top: 40px;
+    background-color: #000000 ;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (Large, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+
+/*********************************************************************************************************
+                                            MODALS   
+*********************************************************************************************************/
