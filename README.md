@@ -28,7 +28,7 @@ Voir la section « Développement » du README.md de [l’extension principale](
 ## Licence
 
 De manière générale, les sources du thème sont distribuées sous GPL V2.
-Une copie de la licence est disponible au premier niveau du dossier de l’extension. Le fichier est nommé `LICENSE.txt` (en anglais).
+Une copie de la licence est disponible au premier niveau du dossier de l’extension. Le fichier est nommé `LICENSE` (en anglais).
 
 Le thème étant un assemblage provenant de sources originales et de sources existantes ou modifiées, certaines parties du thème ont des licences différentes mais  lorsque cela était possible, il a été vérifié qu’elles sont compatibles avec la licence principale. Voici les détails :
 
