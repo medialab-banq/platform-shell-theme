@@ -48,7 +48,7 @@ Pour les librairies secondaires, dépendances et autres ressources :
 * Dossier /library/plugin-update-checker-4.4. [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker) : (licence [MIT](https://tldrlegal.com/license/mit-license)). Copyright (c) 2017 Jānis Elsts.
 * Fontawesome : voir http://fontawesome.io/license/.
 * Dossier /images/interface/samples/headers. Images créées par Bibliothèque et Archives nationales du Québec : licence [CC0](https://creativecommons.org/choose/zero/).
-* Dossier /images/interface/samples/ : logo_pcnq.png, logo_banq.png, logo_banc.png, logo_fondation_banq.png. Images utilisées à titre de remerciements et démonstration de la fonctionnalité d’affichage de partenaires dans le bas de page, marques déposées et copyright de leurs propriétaires respectifs.
+* Dossier /images/interface/samples/ : logo_qc.png, logo_banc.png, logo_fondation_banq.png. Images utilisées à titre de remerciements et démonstration de la fonctionnalité d’affichage de partenaires dans le bas de page, marques déposées et copyright de leurs propriétaires respectifs.
 
 ## Documentation
 
