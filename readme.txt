@@ -1,8 +1,8 @@
 === Plateforme médialab BAnQ ===
 Contributors: Bibliothèque et Archives nationales du Québec (BAnQ)
 Requires at least: WordPress 4.9.4
-Tested up to: WordPress 4.9.4
-Version: 1.0.0
+Tested up to: WordPress 4.9.5
+Version: 1.0.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: medialab
@@ -24,3 +24,9 @@ Thème WordPress permettant de créer une plateforme de médialab collaborative.
 
 = 1.0.0 =
 * Version initiale.
+
+= 1.0.1 =
+* Corrections de problèmes mineurs.
+* - Erreur script lors du signalement de projet cause blocage de l'affichage.
+* - Accès Apparence / Personnaliser cause erreur php.
+* - Restriction courriel incorrecte du courriel gestionnaire.
