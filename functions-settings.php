@@ -535,7 +535,7 @@ function platform_shell_get_banner() {
 
 	// Valider s'il y a une assignation spécifique sur id post. Valide pour post / page / post type individuels seulement (archive exlues).
 	// Valider si le post existe et retourner l'image.
-	if ( is_single() ) {
+	if ( is_singular() ) {
 		$post_title = $banner_title_prefix . 'post_id_' . get_the_ID();
 		$postid     = platform_shell_get_banner_postid_with_query( $post_title );
 
