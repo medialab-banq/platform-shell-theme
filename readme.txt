@@ -26,5 +26,6 @@ Thème WordPress permettant de créer une plateforme de médialab collaborative.
 * Version initiale.
 
 = 1.0.1 =
-* - Correction pour permettre association de bandeau par id pour les pages.
-* - Inclusion du plugin 1.0.1 pour l'assistant d'installation.
+* Correction pour permettre association de bandeau par id pour les pages.
+* Mise à jour du plugin platform-shell-plugin à la version 1.0.1 pour l'assistant d'installation.
+* Ajout de l'archive .zip du plugin platform-shell-plugin pour contourner un problème avec le mécanisme de mise à jour avec Release.

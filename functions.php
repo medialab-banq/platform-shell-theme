@@ -96,6 +96,8 @@ if ( class_exists( 'Puc_v4_Factory' ) ) {
 		'platform-shell-theme'
 	);
 }
+// Voir https://github.com/YahnisElsts/plugin-update-checker/issues/201
+$update_checker->getVcsApi()->enableReleaseAssets();
 
 use Platform_Shell\Profile;
 
