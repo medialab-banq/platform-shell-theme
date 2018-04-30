@@ -26,7 +26,5 @@ Thème WordPress permettant de créer une plateforme de médialab collaborative.
 * Version initiale.
 
 = 1.0.1 =
-* Corrections de problèmes mineurs.
-* - Erreur script lors du signalement de projet cause blocage de l'affichage.
-* - Accès Apparence / Personnaliser cause erreur php.
-* - Restriction courriel incorrecte du courriel gestionnaire.
+* - Correction pour permettre association de bandeau par id pour les pages.
+* - Inclusion du plugin 1.0.1 pour l'assistant d'installation.
